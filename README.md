@@ -41,7 +41,7 @@ set termguicolors
 colorscheme perfect-blue
 ```
 
-The compiled theme has no plugin dependencies. The editor, sidebars, menus, status line, and floating windows use no background color, preserving your terminal background. It leaves your `background` option unchanged. Selections, search matches, and diffs retain highlight backgrounds.
+The compiled theme has no plugin dependencies. The editor, sidebars, menus, and floating windows use no background color, preserving your terminal background. The status line uses a uniform charcoal background matching Yuki (`#1a1a1a`). It leaves your `background` option unchanged. The current editor line and selected Neo-tree row use a subtle blue-gray `#25303b` highlight. Selections, search matches, and diffs retain highlight backgrounds.
 
 ## Palette
 
@@ -64,7 +64,9 @@ The compiled theme has no plugin dependencies. The editor, sidebars, menus, stat
 
 ## Coverage
 
-Includes editor UI, Vim syntax, Tree-sitter captures, LSP semantic tokens and diagnostics, diffs, and all 16 terminal colors. Also includes highlights for GitSigns, Neo-tree, Telescope, nvim-cmp, blink.cmp, Snacks pickers and dashboard, Lazy, Mason, and Noice. Plugins that define their own unrelated colors may need separate configuration.
+Includes editor UI, Vim syntax, Tree-sitter captures, LSP semantic tokens and diagnostics, diffs, and all 16 terminal colors. A matching lualine theme is picked up automatically with `theme = "auto"`: Yuki’s charcoal background, muted labels, and mode changes shown through text color instead of filled blocks. You can also select `theme = "perfect-blue"` in lualine options.
+
+Also includes highlights for GitSigns, Neo-tree, Telescope, nvim-cmp, blink.cmp, Snacks pickers and dashboard, Lazy, Mason, and Noice. Plugins that define their own unrelated colors may need separate configuration.
 
 ## Development
 
