@@ -1,6 +1,6 @@
 # perfect-blue.nvim
 
-A blue Neovim theme with muted green and red accents built with [Lush](https://github.com/rktjmp/lush.nvim), inspired by the supplied *Perfect Blue* image.
+A neovim theme inspired by [Perfect Blue](https://en.wikipedia.org/wiki/Perfect_Blue) by Satoshi Kon.
 
 ![Perfect Blue palette and code preview](extras/preview.svg)
 
