@@ -33,3 +33,27 @@ A neovim theme inspired by [Perfect Blue](https://en.wikipedia.org/wiki/Perfect_
   opts = { colorscheme = "perfect-blue" },
 }
 ```
+
+### vim-plug
+
+```vim
+Plug 'wu-json/perfect-blue.nvim'
+```
+
+### packer.nvim
+
+```lua
+use 'wu-json/perfect-blue.nvim'
+```
+
+### Manual Installation
+
+```bash
+git clone https://github.com/wu-json/perfect-blue.nvim.git ~/.config/nvim/pack/colors/start/perfect-blue.nvim
+```
+
+Then add to your vim config:
+
+```vim
+colorscheme perfect-blue
+```
