@@ -2,6 +2,8 @@
 
 A neovim theme inspired by [Perfect Blue](https://en.wikipedia.org/wiki/Perfect_Blue) by Satoshi Kon.
 
+![Perfect Blue banner](extras/banner.webp)
+
 ## Preview
 
 ### TypeScript
@@ -31,4 +33,3 @@ A neovim theme inspired by [Perfect Blue](https://en.wikipedia.org/wiki/Perfect_
   opts = { colorscheme = "perfect-blue" },
 }
 ```
-
