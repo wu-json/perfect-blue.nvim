@@ -57,3 +57,5 @@ Then add to your vim config:
 ```vim
 colorscheme perfect-blue
 ```
+
+Built with [lush.nvim](https://github.com/rktjmp/lush.nvim), a framework for creating Neovim themes.
